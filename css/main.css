@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(237, 239, 241) !important;
+}
+
+
+
+.formtop{
+    padding-top: 3rem;
+}
+
+.formm{
+    border: 1px solid gray;
+    padding: 20px;
+    background: #fff;
+    
+}
+
+.formm h2{
+    font-family: 'Pacifico', cursive;
+}
+
+.formm a{
+    text-decoration: none !important;
+    color: rgb(64, 64, 195);
+}
+
+.facebook{
+   margin-top: 20px;
+   margin-left: 90px;
+}
+
+.forgot{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.forgot a{
+    color: gray; 
+}
+
+.forgot a:hover{
+    color: gray;
+}
+
+
+.under_btn {
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+    
+}
+
+.under_btn::before,
+.under_btn::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: gray;
+}
+
+.under_form{
+    border: 1px solid gray;
+    padding: 20px 0;
+    background: #fff;
+}
+.under_form a{
+    text-decoration: none !important;
+    color: rgb(64, 64, 195);
+}
+
+.store{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.apple{
+    padding-right: 20px;
+}
+
+.sub-links a{
+  text-decoration: none !important;
+  margin-left: 15px;
+   color: gray;
+}
+
+.sub-links a:hover{
+    color: gray;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+}
+
+#language{
+    border: none;
+    background-color: transparent;
+    /* margin-left: 10px; */
+}
