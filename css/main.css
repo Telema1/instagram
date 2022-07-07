@@ -33,15 +33,6 @@ body{
     color: rgb(64, 64, 195);
 }
 
-.facebook{
-   margin-top: 20px;
-   margin-left: 90px;
-}
-
-.forgot{
-    margin-top: 20px;
-    margin-left: 120px;
-}
 .forgot a{
     color: gray; 
 }
